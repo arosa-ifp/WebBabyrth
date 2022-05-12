@@ -1,0 +1,474 @@
+@media screen and (max-width:850px){
+
+  @font-face {
+      font-family: 'Montserrat';
+      src: url('Montserrat-Medium.eot');
+      src: url('Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+          url('Montserrat-Medium.woff2') format('woff2'),
+          url('Montserrat-Medium.woff') format('woff'),
+          url('Montserrat-Medium.ttf') format('truetype'),
+          url('Montserrat-Medium.svg#Montserrat-Medium') format('svg');
+      font-weight: 500;
+      font-style: normal;
+      font-display: swap;
+  }
+
+  .desplega{
+    position: relative;
+    top: 160px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  nav ul li:hover{
+    background-color: #cd545b;
+    color: white;
+  }
+
+ body{
+  background: white;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+ }
+
+.semanitas{
+  position: relative;
+  margin: 0 auto;
+  background-color: ;
+  height: 2570px;
+  width: 400px;
+  top: -50px;
+}
+
+ nav ul li{
+   display: block;
+   background: #cd545b;
+   margin: 0 auto;
+   padding: 0;
+   margin-top: 0.2rem;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   width: 20rem;
+   list-style: none;
+   text-align: center;
+   border-radius: 30px;
+ }
+
+ nav ul li ul{
+   display: none;
+   padding: 0;
+   margin: 0;
+ }
+
+ nav ul li ul li{
+   height: 120px;
+ }
+
+ nav ul li:hover ul{
+   display: block;
+ }
+
+ nav ul:hover li ul li{
+   float: none;
+ }
+
+ body{
+   background-color: white;
+   padding: 0;
+   margin: 0;
+ }
+ .logo_letrasb{
+   position: fixed;
+   top: 15px;
+   left: 30px;
+   height: 30px;
+   width: 136px;
+   background-image: url(../img/logo_letra_blanco.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+ .top{
+   position: fixed;
+   height: 60px;
+   width: 100%;
+   top: 0;
+   background-color: #cd545b;
+   z-index: -10;
+ }
+
+ .mid{
+   position: relative;
+   height: 0;
+   width: 100%;
+   margin-top: 0 auto;
+   padding: 0;
+   background-color: ;
+   z-index: -100;
+ }
+
+ .bot{
+   position: fixed;
+   bottom: 0;
+   height: 50px;
+   width: 100%;
+   margin: 0 auto;
+   background-color: #cd545b;
+   z-index: -11;
+ }
+
+ .usuario{
+ position: fixed;
+ right: 100px;
+ top: 25px;
+ width: 55px;
+ height: 50px;
+ background-image: url(../img/usuario.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+ z-index: 1;
+ }
+
+ .sortida{
+   position: fixed;
+   right: 40px;
+   top: 15px;
+   width: 22px;
+   height: 30px;
+   background-image: url(../img/puerta.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   z-index: 1;
+ }
+
+ .casita{
+   position: fixed;
+   right: 100px;
+   top: 15px;
+   width: 38px;
+   height: 32px;
+   background-image: url(../img/casa.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   z-index: 1;
+ }
+
+ .logo_babyrth{
+   position: relative;
+   top: 100px;
+   width: 250px;
+   height: 310px;
+   margin: 0 auto;
+   background-image: url(../img/logo_babyrth.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+ h2{
+   position: relative;
+   top: -20px;
+   color: white;
+   font-size: 1rem;
+   margin-top: 0;
+   padding: 0;
+   line-height: 20px;
+   margin-left: 80px;
+   font-family: 'Montserrat', sans-serif;
+ }
+
+ .logo_top{
+   position: relative;
+   top: 0px;
+   left: 10px;
+   width: 60px;
+   height: 60px;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+ h3{
+   text-align: center;
+   color: white;
+   font-size: 1rem;
+   font-family: 'Montserrat', sans-serif;
+   line-height: 80px;
+ }
+
+ a{
+   text-decoration: none;
+ }
+
+ .letras_logo_bot{
+   position: fixed;
+   bottom: 10px;
+   margin-left: 35%;
+   height: 30px;
+   width: 136px;
+   background-image: url(../img/logo_letra_blanco.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+ #azultop{
+   background-color: #b0d1cc;
+ }
+
+ #azulbot{
+   background-color: #b0d1cc;
+ }
+
+ p{
+   font-family: 'Montserrat';
+   font-size: 0.8rem;
+   text-align: left;
+   line-height: 1.2rem;
+   margin: -10px 20px 0 20px;
+ }
+
+ h1{
+   font-family: 'Montserrat';
+   font-size: 1.4rem;
+   text-align: center;
+ }
+
+ #semanatop{
+   background-image: url(../img/bebe.png);
+ }
+}
+
+@media screen and (min-width:851px){
+  @font-face {
+      font-family: 'Montserrat';
+      src: url('Montserrat-Medium.eot');
+      src: url('Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+          url('Montserrat-Medium.woff2') format('woff2'),
+          url('Montserrat-Medium.woff') format('woff'),
+          url('Montserrat-Medium.ttf') format('truetype'),
+          url('Montserrat-Medium.svg#Montserrat-Medium') format('svg');
+      font-weight: 500;
+      font-style: normal;
+      font-display: swap;
+  }
+
+  .desplega{
+    position: relative;
+    top: 160px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  nav ul li:hover{
+    background-color: #cd545b;
+    color: white;
+  }
+
+ body{
+  background: white;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+ }
+
+.semanitas{
+  position: relative;
+  margin: 0 auto;
+  background-color: ;
+  height: 3950px;
+  width: 650px;
+}
+
+ nav ul li{
+   display: block;
+   background: #cd545b;
+   margin: 0 auto;
+   padding: 0;
+   margin-top: 0.2rem;
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+   width: 40rem;
+   list-style: none;
+   text-align: center;
+   border-radius: 30px;
+ }
+
+ nav ul li ul{
+   display: none;
+   padding: 0;
+   margin: 0;
+ }
+
+ nav ul li ul li{
+   height: 120px;
+ }
+
+ nav ul li:hover ul{
+   display: block;
+ }
+
+ nav ul:hover li ul li{
+   float: none;
+ }
+
+ body{
+   background-color: ;
+   padding: 0;
+   margin: 0;
+ }
+ .logo_letrasb{
+   position: fixed;
+   top: 20px;
+   left: 30px;
+   height: 60px;
+   width: 272px;
+   background-image: url(../img/logo_letra_blanco.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+ .top{
+   position: fixed;
+   height: 100px;
+   width: 100%;
+   top: 0;
+   background-color: #cd545b;
+   z-index: -10;
+ }
+
+ .mid{
+   position: relative;
+   height: 0;
+   width: 100%;
+   margin-top: 0 auto;
+   padding: 0;
+   background-color: ;
+   z-index: -100;
+ }
+
+ .bot{
+   position: fixed;
+   bottom: 0;
+   height: 100px;
+   width: 100%;
+   margin: 0 auto;
+   background-color: #cd545b;
+   z-index: -11;
+ }
+
+ .usuario{
+ position: fixed;
+ right: 100px;
+ top: 25px;
+ width: 55px;
+ height: 50px;
+ background-image: url(../img/usuario.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+ z-index: 1;
+ }
+
+ .sortida{
+   position: fixed;
+   right: 40px;
+   top: 25px;
+   width: 32px;
+   height: 50px;
+   background-image: url(../img/puerta.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   z-index: 1;
+ }
+
+ .casita{
+   position: fixed;
+   right: 100px;
+   top: 25px;
+   width: 54px;
+   height: 44px;
+   background-image: url(../img/casa.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   z-index: 1;
+ }
+
+ .logo_babyrth{
+   position: relative;
+   top: 200px;
+   width: 250px;
+   height: 310px;
+   margin: 0 auto;
+   background-image: url(../img/logo_babyrth.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+ h2{
+   position: relative;
+   top: -20px;
+   color: white;
+   font-size: 1rem;
+   margin-top: 0;
+   padding: 0;
+   line-height: 20px;
+   margin-left: 80px;
+   font-family: 'Montserrat', sans-serif;
+ }
+
+ .logo_top{
+   position: relative;
+   top: 20px;
+   left: 10px;
+   width: 60px;
+   height: 60px;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+ h3{
+   text-align: center;
+   color: white;
+   font-size: 1rem;
+   font-family: 'Montserrat', sans-serif;
+   line-height: 80px;
+ }
+
+ a{
+   text-decoration: none;
+ }
+
+ .letras_logo_bot{
+   position: relative;
+   bottom: -40px;
+   margin: 0 auto;
+   padding: 0;
+   height: 30px;
+   width: 136px;
+   background-image: url(../img/logo_letra_blanco.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+ #azultop{
+   background-color: #b0d1cc;
+ }
+
+ #azulbot{
+   background-color: #b0d1cc;
+ }
+
+ p{
+   font-family: 'Montserrat';
+   font-size: 0.8rem;
+   text-align: left;
+   line-height: 1.2rem;
+   margin: -10px 20px 0 20px;
+ }
+
+ h1{
+   font-family: 'Montserrat';
+   font-size: 1.4rem;
+   text-align: center;
+ }
+
+ #semanatop{
+   background-image: url(../img/bebe.png);
+ }
+}

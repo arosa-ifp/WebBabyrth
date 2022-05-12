@@ -1,0 +1,492 @@
+@media screen and (max-width:850px){
+
+  @font-face {
+      font-family: 'Montserrat';
+      src: url('Montserrat-Medium.eot');
+      src: url('Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+          url('Montserrat-Medium.woff2') format('woff2'),
+          url('Montserrat-Medium.woff') format('woff'),
+          url('Montserrat-Medium.ttf') format('truetype'),
+          url('Montserrat-Medium.svg#Montserrat-Medium') format('svg');
+      font-weight: 500;
+      font-style: normal;
+      font-display: swap;
+  }
+
+body {
+	 position: relative;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 height: 100vh;
+	 font-family: 'Poppins', sans-serif;
+	 padding: 0;
+   margin: 0;
+	 background-image: url("img/babyrth.png");
+	 z-index: -1;
+   background-color: white;
+}
+ body::before {
+	 content: "";
+	 position: absolute;
+	 top: 0;
+	 right: 0;
+	 background: inherit;
+}
+ .calendar {
+	 position: relative;
+	 width: 300px;
+	 background-color: #fff;
+	 box-sizing: border-box;
+	 box-shadow: 0 5px 50px rgba(0, 0, 0, 0.5);
+	 border-radius: 8px;
+	 overflow: hidden;
+}
+ .calendar__picture {
+	 position: relative;
+	 height: 255px;
+	 padding: 20px;
+	 color: #cd545b;
+	 background:#fff ;
+	 text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+	 box-sizing: border-box;
+   background-image: url(../img/babyrth.png);
+	 background-repeat: no-repeat;
+	 background-size: contain;
+	 background-position: center;
+}
+ .calendar__picture::before {
+	 content: "";
+	 top: 0;
+	 bottom: 0;
+	 position: absolute;
+	 background: linear-gradient(to top, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.1));
+
+
+}
+ .calendar__picture h2 {
+	 margin: 0;
+}
+ .calendar__picture h3 {
+	 margin: 0;
+	 font-weight: 500;
+}
+ .calendar__date {
+	 padding: 20px;
+	 display: grid;
+	 grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+	 grid-gap: 10px;
+	 box-sizing: border-box;
+}
+ .calendar__day {
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 height: 25px;
+	 font-weight: 600;
+	 color: #262626;
+}
+ .calendar__day:nth-child(7) {
+	 color: #ff685d;
+}
+ .calendar__number {
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 height: 25px;
+	 color: #262626;
+}
+ .calendar__number:nth-child(7n) {
+	 color: #ff685d;
+	 font-weight: 700;
+}
+ .calendar__number--current {
+	 background-color: #cd545b;
+	 color: #fff !important;
+	 font-weight: 700;
+	 cursor: pointer;
+}
+ .calendar__number:hover {
+	 background-color: #009688;
+	 color: #fff !important;
+	 font-weight: 700;
+	 cursor: pointer;
+}
+ .calendar__number:active {
+	 background-color: #b0d1cc;
+	 color: #fff !important;
+	 font-weight: 700;
+	 cursor: pointer;
+}
+.calendar__number--1 {
+  background-color: #009688;
+  color: #fff !important;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 25%;
+}
+.fechas{
+  position:relative;
+  top:800px:
+  left:0px;
+  width: 300px;
+  height:100px;
+  background: #009688;
+  padding:20px;
+  color: #fff;
+
+}
+.icon{
+  width: 30px;
+  height: 30px;
+  background-color:grey 0.5;
+  background-image: url(../img/recuerda30.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin:0;
+  position: relative;
+	display: inline-block;
+	top:-10px;
+}
+
+.top{
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  top: 0;
+  background-color: #cd545b;
+  z-index: -10;
+}
+
+
+.bot{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #cd545b;
+  z-index: -11;
+}
+
+.sortida{
+  position: fixed;
+  right: 40px;
+  top: 15px;
+  width: 22px;
+  height: 30px;
+  background-image: url(../img/puerta.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+.casita{
+  position: fixed;
+  right: 100px;
+  top: 15px;
+  width: 38px;
+  height: 32px;
+  background-image: url(../img/casa.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+.logo_top{
+  position: relative;
+  top: 0px;
+  left: 10px;
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#calendariotop{
+  background-image: url(../img/diaadia.png);
+}
+
+.letras_logo_bot{
+  position: fixed;
+  bottom: 10px;
+  margin-left: 35%;
+  height: 30px;
+  width: 136px;
+  background-image: url(../img/logo_letra_blanco.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.calendario{
+  background-image: url(../img/diaadia.png);
+}
+
+#azultop{
+  background-color: #b0d1cc;
+}
+
+#azulbot{
+  background-color: #b0d1cc;
+}
+
+h2{
+  position: relative;
+  top: -20px;
+  color: white;
+  font-size: 1rem;
+  margin-top: 0;
+  padding: 0;
+	width: 180px;
+  line-height: 20px;
+  margin-left: 80px;
+  font-family: 'Montserrat', sans-serif;
+}
+}
+
+@media screen and (min-width:851px){
+
+  @font-face {
+      font-family: 'Montserrat';
+      src: url('Montserrat-Medium.eot');
+      src: url('Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+          url('Montserrat-Medium.woff2') format('woff2'),
+          url('Montserrat-Medium.woff') format('woff'),
+          url('Montserrat-Medium.ttf') format('truetype'),
+          url('Montserrat-Medium.svg#Montserrat-Medium') format('svg');
+      font-weight: 500;
+      font-style: normal;
+      font-display: swap;
+  }
+
+body {
+	 position: relative;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 height: 100vh;
+	 font-family: 'Poppins', sans-serif;
+	 padding: 0;
+   margin: 0;
+	 background-image: url("img/babyrth.png");
+	 z-index: -1;
+   background-color: white;
+}
+ body::before {
+	 content: "";
+	 position: absolute;
+	 top: 0;
+	 right: 0;
+	 background: inherit;
+}
+ .calendar {
+	 position: relative;
+	 width: 300px;
+	 background-color: #fff;
+	 box-sizing: border-box;
+	 box-shadow: 0 5px 50px rgba(0, 0, 0, 0.5);
+	 border-radius: 8px;
+	 overflow: hidden;
+}
+ .calendar__picture {
+	 position: relative;
+	 height: 255px;
+	 padding: 20px;
+	 color: #cd545b;
+	 background:#fff ;
+	 text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+	 box-sizing: border-box;
+   background-image: url(../img/babyrth.png);
+	 background-repeat: no-repeat;
+	 background-size: contain;
+	 background-position: center;
+}
+ .calendar__picture::before {
+	 content: "";
+	 top: 0;
+	 bottom: 0;
+	 position: absolute;
+	 background: linear-gradient(to top, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.1));
+
+
+}
+ .calendar__picture h2 {
+	 margin: 0;
+}
+ .calendar__picture h3 {
+	 margin: 0;
+	 font-weight: 500;
+}
+ .calendar__date {
+	 padding: 20px;
+	 display: grid;
+	 grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+	 grid-gap: 10px;
+	 box-sizing: border-box;
+}
+ .calendar__day {
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 height: 25px;
+	 font-weight: 600;
+	 color: #262626;
+}
+ .calendar__day:nth-child(7) {
+	 color: #ff685d;
+}
+ .calendar__number {
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 height: 25px;
+	 color: #262626;
+}
+ .calendar__number:nth-child(7n) {
+	 color: #ff685d;
+	 font-weight: 700;
+}
+ .calendar__number--current {
+	 background-color: #cd545b;
+	 color: #fff !important;
+	 font-weight: 700;
+	 cursor: pointer;
+}
+ .calendar__number:hover {
+	 background-color: #009688;
+	 color: #fff !important;
+	 font-weight: 700;
+	 cursor: pointer;
+}
+ .calendar__number:active {
+	 background-color: #b0d1cc;
+	 color: #fff !important;
+	 font-weight: 700;
+	 cursor: pointer;
+}
+.calendar__number--1 {
+  background-color: #009688;
+  color: #fff !important;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 25%;
+}
+.fechas{
+  position:relative;
+  top:800px:
+  left:0px;
+  width: 300px;
+  height:100px;
+  background: #009688;
+  padding:20px;
+  color: #fff;
+
+}
+.icon{
+  width: 30px;
+  height: 30px;
+  background-color:grey 0.5;
+  background-image: url(../img/recuerda30.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin:0;
+  position: relative;
+	display: inline-block;
+	top:-10px;
+}
+
+.top{
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  top: 0;
+  background-color: #cd545b;
+  z-index: -10;
+}
+
+
+.bot{
+  position: fixed;
+  bottom: 0;
+	left: 0;
+  height: 100px;
+  width: 100%;
+  background-color: #cd545b;
+  z-index: -11;
+}
+
+.sortida{
+  position: fixed;
+  right: 40px;
+  top: 25px;
+  width: 32px;
+  height: 50px;
+  background-image: url(../img/puerta.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+.casita{
+  position: fixed;
+  right: 100px;
+  top: 25px;
+  width: 54px;
+  height: 44px;
+  background-image: url(../img/casa.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+.logo_top{
+  position: relative;
+  top: 20px;
+  left: 10px;
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#calendariotop{
+  background-image: url(../img/diaadia.png);
+}
+
+.letras_logo_bot{
+  position: fixed;
+  bottom: 30px;
+  margin-left: 35%;
+  height: 30px;
+  width: 136px;
+  background-image: url(../img/logo_letra_blanco.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.calendario{
+  background-image: url(../img/diaadia.png);
+}
+
+#azultop{
+  background-color: #b0d1cc;
+}
+
+#azulbot{
+  background-color: #b0d1cc;
+}
+
+h2{
+  position: relative;
+  top: -20px;
+  color: white;
+  font-size: 1rem;
+  margin-top: 0;
+  padding: 0;
+	width: 180px;
+  line-height: 20px;
+  margin-left: 80px;
+  font-family: 'Montserrat', sans-serif;
+}
+}

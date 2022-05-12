@@ -1,0 +1,1882 @@
+@media screen and (max-width:850px){
+
+  @font-face {
+      font-family: 'Montserrat';
+      src: url('Montserrat-Medium.eot');
+      src: url('Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+          url('Montserrat-Medium.woff2') format('woff2'),
+          url('Montserrat-Medium.woff') format('woff'),
+          url('Montserrat-Medium.ttf') format('truetype'),
+          url('Montserrat-Medium.svg#Montserrat-Medium') format('svg');
+      font-weight: 500;
+      font-style: normal;
+      font-display: swap;
+  }
+body{
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+.logo_letrasb{
+  position: fixed;
+  top: 15px;
+  left: 30px;
+  height: 30px;
+  width: 136px;
+  background-image: url(../img/logo_letra_blanco.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.top{
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  top: 0;
+  background-color: #cd545b;
+  z-index: -10;
+}
+
+.mid{
+  position: relative;
+  height: 0;
+  width: 100%;
+  margin-top: 0 auto;
+  padding: 0;
+  background-color: ;
+  z-index: -100;
+}
+
+.bot{
+  position: fixed;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #cd545b;
+  z-index: -11;
+}
+
+.usuario{
+position: fixed;
+right: 100px;
+top: 15px;
+width: 35px;
+height: 30px;
+background-image: url(../img/usuario.png);
+background-repeat: no-repeat;
+background-size: cover;
+z-index: 1;
+}
+
+.sortida{
+  position: fixed;
+  right: 40px;
+  top: 15px;
+  width: 22px;
+  height: 30px;
+  background-image: url(../img/puerta.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+.casita{
+  position: fixed;
+  right: 100px;
+  top: 15px;
+  width: 38px;
+  height: 32px;
+  background-image: url(../img/casa.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+.logo_babyrth{
+  position: relative;
+  top: 100px;
+  width: 250px;
+  height: 310px;
+  margin: 0 auto;
+  background-image: url(../img/logo_babyrth.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h2{
+  position: relative;
+  top: -20px;
+  color: white;
+  font-size: 1rem;
+  margin-top: 0;
+  padding: 0;
+  line-height: 20px;
+  margin-left: 80px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#medicamentosaptos{
+  font-size: 0.9rem;
+}
+
+#alimentosaptos{
+  font-size: 0.9rem;
+}
+
+
+
+.logo_top{
+  position: relative;
+  top: 0px;
+  left: 10px;
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#alimentop{
+  background-image: url(../img/alimentos.png);
+}
+
+#medicamentop{
+  background-image: url(../img/medicamentos.png);
+}
+
+#calendariotop{
+  background-image: url(../img/diaadia.png);
+}
+
+#semanatop{
+  background-image: url(../img/bebe.png);
+}
+
+#imagenestop{
+  background-image: url(../img/fotos.png);
+}
+
+#forotop{
+  background-image: url(../img/foro.png);
+}
+
+#blogtop{
+  background-image: url(../img/blog.png);
+}
+
+#hospitop{
+  background-image: url(../img/hospital.png);
+}
+
+.infoalimentos{
+  background-color: ;
+  position: relative;
+  top: 120px;
+  height: 3900px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.info{
+  background-color: ;
+  position: relative;
+  top: 150px;
+  height: 4600px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+h3{
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 80px;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  width: 220px;
+  height: 50px;
+  margin: 0 auto;
+  position: relative;
+  display: block;
+  list-style: none;
+  margin-top: 30px;
+  top: 150px;
+  background-color: #b0d1cc;
+  border-radius: 20px;
+  line-height: 50px;
+  color: white;
+  padding-left: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.inicis{
+  position: relative;
+  top: 110px;
+  color: #cd545b;
+  background-color: inherit;
+  font-size: 1.2rem;
+  padding: 0;
+  text-align: center;
+  width: 250px;
+}
+
+.textorecu{
+  position: relative;
+  color: #b0d1cc;
+  background-color: inherit;
+  font-size: 0.7rem;
+  padding: 0;
+  line-height: 0.9rem;
+  top: 0;
+  width: 230px;
+}
+
+.guardarcontra{
+  position: relative;
+  background-color: #cd545b;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  top: 0px;
+}
+
+.guardarcontra:active{
+  transform: scale(1.1);
+}
+
+.registre{
+  position: relative;
+  top: 40px;
+  color: #cd545b;
+  background-color: inherit;
+  font-size: 1.2rem;
+  width: 250px;
+}
+
+.crearcuenta{
+  top: 50px;
+}
+
+.recuperar{
+  top: 50px;
+}
+
+.entrar{
+  background-color: #cd545b;
+  text-align: center;
+  padding: 0;
+  top: 90px;
+}
+
+.creare{
+  background-color: #cd545b;
+  text-align: center;
+  padding: 0;
+  position: relative;
+  top: -50px;
+
+}
+
+.creare:active{
+  transform: scale(1.1);
+}
+
+.registro{
+  position: relative;
+  top: 150px;
+  width: 250px;
+  height: 80px;
+  margin: 0 auto;
+  background-color: #b0d1cc;
+  border-radius: 15px;
+}
+
+.inicio{
+  position: relative;
+  top: 200px;
+  width: 250px;
+  height: 80px;
+  margin: 0 auto;
+  background-color: #b0d1cc;
+  border-radius: 15px;
+}
+
+
+.botonesprincipal{
+  position: relative;
+  top: 35px;
+  background-color: ;
+  margin: 0 auto;
+  width: 98%;
+  height: 800px;
+}
+
+.botonesprincipal li{
+  position: relative;
+  display: inline-block;
+  top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  width: 140px;
+  height: 140px;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.letras_logo_bot{
+  position: fixed;
+  bottom: 10px;
+  margin-left: 35%;
+  height: 30px;
+  width: 136px;
+  background-image: url(../img/logo_letra_blanco.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.alimentos{
+  background-image: url(../img/alimentos.png);
+}
+
+.medicamentos{
+  background-image: url(../img/medicamentos.png);
+}
+
+.calendario{
+  background-image: url(../img/diaadia.png);
+}
+
+.bebe{
+  background-image: url(../img/bebe.png);
+}
+
+.imagenes{
+  background-image: url(../img/fotos.png);
+}
+
+.foro{
+  background-image: url(../img/foro.png);
+}
+
+.blog{
+  background-image: url(../img/blog.png);
+}
+
+.hospital{
+  background-image: url(../img/hospital.png);
+}
+
+
+#azultop{
+  background-color: #b0d1cc;
+}
+
+#azulbot{
+  background-color: #b0d1cc;
+}
+
+#rojo{
+  color: #cd545b;
+}
+
+
+#verde{
+  color: #b0d1cc;
+}
+
+p{
+  font-family: 'Montserrat';
+  font-size: 1.2rem;
+}
+
+h1{
+  font-family: 'Montserrat';
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+#noaptos{
+color: #cd545b;
+}
+
+#aptos{
+  color: #b0d1cc;
+}
+
+
+.mesescentrar{
+  position: relative;
+  margin: 0 auto;
+  height: 900px;
+  width: 400px;
+  background-color: ;
+  top: 50px;
+}
+
+.imagenesmes{
+  position: relative;
+  display: inline-block;
+  top: ;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  margin-left: 25px;
+  width: 140px;
+  height: 140px;
+  padding: 0;
+  border-radius: 20px;
+  background-color: #b0d1cc;
+}
+
+.imagenesmes p{
+  position: relative;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 5px;
+}
+
+input{
+  position: relative;
+  top: 0;
+  width: 150px;
+  height: 30px;
+  padding: 5px;
+  margin: 20px;
+  border-radius: 30px;
+  text-align: center;
+  background-color: #b0d1cc;
+  color: white;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.registrobotones input{
+  width: 210px;
+  margin: 0 auto;
+  margin: 15px 0 15px 0;
+  padding: 0;
+  position: relative;
+  top: -80px;
+}
+
+.registrobotonesinicio input{
+  width: 210px;
+  margin: 0 auto;
+  margin: 25px 0 25px 0;
+  padding: 0;
+}
+
+.registrobotonesrecu input{
+  width: 210px;
+  margin: 0 auto;
+  margin: 25px 0 25px 0;
+  padding: 0;
+}
+
+
+
+img{
+  position: relative;
+  margin: 1px;
+  width: 138px;
+  height: 118px;
+  background-color: ;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#muno:active{
+transform: scale(1.1);}
+
+#mdos:active{
+transform: scale(1.1);}
+
+#mtres:active{
+transform: scale(1.1);}
+
+#mcuatro:active{
+transform: scale(1.1);}
+
+#mcinco:active{
+transform: scale(1.1);}
+
+#mseis:active{
+transform: scale(1.1);}
+
+#msiete:active{
+transform: scale(1.1);}
+
+#mocho:active{
+  transform: scale(1.1);
+}
+
+#mnueve:active{
+  transform: scale(1.1);
+}
+
+#mbienvenida:active{
+  transform: scale(1.1);
+}
+
+#download img{
+  position: relative;
+  top: 200px;
+  width: 400px;
+  margin: 0 auto;
+  height: auto;
+}
+
+.registrobotones{
+  margin: 0 auto;
+  top: 100px;
+  position: relative;
+  width: 200px;
+  height: 600px;
+  background-color: ;
+}
+
+.registrobotonesinicio{
+  margin: 0 auto;
+  top: 160px;
+  position: relative;
+  width: 200px;
+  height: 100px;
+  background-color: ;
+}
+
+
+.registrobotonesrecu{
+  margin: 0 auto;
+  top: 160px;
+  position: relative;
+  width: 200px;
+  height: 100px;
+  background-color: ;
+}
+
+.infoalimentos input{
+  width: 300px;
+  text-align: justify;
+  font-family: 'Montserrat';
+  font-size: 1.1rem;
+  position: fixed;
+  top: 50px;
+  right: 70px;
+}
+
+.info input{
+  width: 300px;
+  text-align: justify;
+  font-family: 'Montserrat';
+  font-size: 1.1rem;
+  position: fixed;
+  top: 50px;
+  right: 70px;
+}
+
+.hospicubos{
+  position: relative;
+  margin: 0 auto;
+  top: 120px;
+  background-color: ;
+  height: 1800px;
+  width: 400px;
+}
+
+.hospili{
+  position: relative;
+  margin: 10px;
+  top: ;
+  background-color: cyan;
+  height: 160px;
+  width: 340;
+  border-radius: 30px;
+  background-color: #b0d1cc;
+  color: white;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hospili h3{
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  width: 350px;
+  height: 20px;
+  background-color: ;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.8rem;
+}
+
+  .hospili p{
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    width: 350px;
+    height: 134px;
+    background-color: ;
+    font-size: 0.8rem;
+    line-height: 1.4rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+#joandeu h3{
+    padding-top: 15px;
+  }
+
+#joandeu p{
+      padding-top: 15px;
+    }
+
+#sanitas:active{
+  transform: scale(1.1);
+}
+
+#teknon:active{
+  transform: scale(1.1);
+}
+
+#quiron:active{
+  transform: scale(1.1);
+}
+
+#joandeu:active{
+  transform: scale(1.1);
+}
+
+#delmar:active{
+  transform: scale(1.1);
+}
+
+#esperit:active{
+  transform: scale(1.1);
+}
+
+#hebron:active{
+  transform: scale(1.1);
+}
+
+#clinic:active{
+  transform: scale(1.1);
+}
+
+#santramon:active{
+  transform: scale(1.1);
+}
+
+#safa:active{
+  transform: scale(1.1);
+}
+
+.searchforo{
+  position: relative;
+  top: 140px;
+  width: 400px;
+  height: 3200px;
+  margin: 0 auto;
+  background-color: ;
+}
+
+.searchforo input{
+  width: 300px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.foropub{
+  position: relative;
+  margin: 0 auto;
+  top: 20px;
+  width: 400px;
+  height: 180px;
+  background-color: ;
+  margin-bottom: 50px;
+}
+
+#actividad{
+  position: relative;
+  margin: 0 auto;
+  width: 370px;
+  height: 120px;
+  margin-bottom: 5px;
+  background-color: #b0d1cc;
+  padding: 15px;
+  color: white;
+  font-size: 0.9rem;
+  line-height: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  border-radius: 10px 10px 0 0;
+}
+
+#perfil{
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0;
+  width: 97px;
+  height: 30px;
+  background-color: #b0d1cc;
+  color: white;
+  font-size: 0.8rem;
+  line-height: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  border-radius: 0 0 0 10px;
+}
+
+#contacto{
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0;
+  width: 197px;
+  height: 30px;
+  background-color: #b0d1cc;
+  color: white;
+  font-size: 0.8rem;
+  line-height: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+#fecha{
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0;
+  width: 97px;
+  height: 30px;
+  background-color: #b0d1cc;
+  color: white;
+  font-size: 0.8rem;
+  line-height: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  border-radius: 0 0 10px 0;
+}
+
+.searchblog{
+  position: relative;
+  top: 140px;
+  width: 400px;
+  height: 2900px;
+  margin: 0 auto;
+  background-color: ;
+}
+
+.searchblog input{
+  width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.blogpub{
+  position: relative;
+  margin: 0 auto;
+  top: 20px;
+  width: 400px;
+  height: 180px;
+  background-color: ;
+  margin-bottom: 500px;
+}
+
+#seccionblog{
+  position: relative;
+  margin: 0 auto;
+  width: 370px;
+  height: 5px;
+  margin-bottom: 5px;
+  background-color: #b0d1cc;
+  padding: 15px;
+  color: white;
+  font-size: 0.9rem;
+  line-height: 0.7rem;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+}
+
+#bloged{
+  position: relative;
+  margin: 0 auto;
+  width: 370px;
+  height: 500px;
+  margin-bottom: 5px;
+  background-color: #b0d1cc;
+  padding: 15px;
+  color: white;
+  font-size: 0.9rem;
+  line-height: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  border-radius: 0;
+}
+
+#nombreespe{
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0;
+  width: 198px;
+  height: 30px;
+  background-color: #b0d1cc;
+  color: white;
+  font-size: 0.8rem;
+  line-height: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  border-radius: 0 0 0 10px;
+}
+
+#especialidad{
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0;
+  width: 198px;
+  height: 30px;
+  background-color: #b0d1cc;
+  color: white;
+  font-size: 0.8rem;
+  line-height: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  border-radius: 0 0 10px 0;
+}
+
+.datoscambio{
+  position: relative;
+  top: 120px;
+  margin: 0 auto;
+  width: 300px;
+  height: 900px;
+  background-color: ;
+}
+
+.guardatos{
+  width: 220px;
+  height: 50px;
+  position: relative;
+  list-style: none;
+  top: 50px;
+  background-color: #cd545b;
+  border-radius: 20px;
+  line-height: 50px;
+  color: white;
+  text-align: center;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.fotopers{
+  position: relative;
+  top: 10px;
+  margin: 0 auto;
+  border-radius: 100%;
+  width: 180px;
+  height: 180px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../img/fotos.png);
+}
+
+.datoscambio input{
+  position: relative;
+  top: 30px;
+  margin-top: 5px;
+  width: 250px;
+  height: 20px;
+}
+
+#semana{
+  text-align: center;
+}
+
+.botonesprincipal li:hover{
+  opacity: 80%;
+  transform: scale(1.05);
+}
+
+.descarga{
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  height: 30px;
+  width: 130px;
+  border-radius: 30px;
+  background-color: #b0d1cc;
+  text-align: center;
+  color: white;
+  line-height: 2rem;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.descarga:hover{
+  opacity: 70%;
+}
+
+.descarga:active{
+  transform: scale(1.05);
+}
+
+#botprincipal{
+
+}
+
+}
+
+
+
+@media screen and (min-width:851px){
+
+  @font-face {
+      font-family: 'Montserrat';
+      src: url('Montserrat-Medium.eot');
+      src: url('Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+          url('Montserrat-Medium.woff2') format('woff2'),
+          url('Montserrat-Medium.woff') format('woff'),
+          url('Montserrat-Medium.ttf') format('truetype'),
+          url('Montserrat-Medium.svg#Montserrat-Medium') format('svg');
+      font-weight: 500;
+      font-style: normal;
+      font-display: swap;
+  }
+  body{
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  }
+  .logo_letrasb{
+  position: fixed;
+  top: 20px;
+  left: 30px;
+  height: 60px;
+  width: 272px;
+  background-image: url(../img/logo_letra_blanco.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  .top{
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  top: 0;
+  background-color: #cd545b;
+  z-index: -10;
+  }
+
+  .mid{
+  position: relative;
+  height: 0;
+  width: 100%;
+  margin-top: 0 auto;
+  padding: 0;
+  background-color: ;
+  z-index: -100;
+  }
+
+  .bot{
+  position: fixed;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #cd545b;
+  z-index: -11;
+  }
+
+  .usuario{
+  position: fixed;
+  right: 100px;
+  top: 25px;
+  width: 55px;
+  height: 50px;
+  background-image: url(../img/usuario.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+  }
+
+  .sortida{
+  position: fixed;
+  right: 40px;
+  top: 25px;
+  width: 32px;
+  height: 50px;
+  background-image: url(../img/puerta.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+  }
+
+  .casita{
+  position: fixed;
+  right: 100px;
+  top: 25px;
+  width: 54px;
+  height: 44px;
+  background-image: url(../img/casa.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+  }
+
+  .logo_babyrth{
+  position: relative;
+  top: 200px;
+  width: 250px;
+  height: 310px;
+  margin: 0 auto;
+  background-image: url(../img/logo_babyrth.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  h2{
+  position: relative;
+  top: -20px;
+  color: white;
+  font-size: 1rem;
+  margin-top: 0;
+  padding: 0;
+  line-height: 20px;
+  margin-left: 80px;
+  font-family: 'Montserrat', sans-serif;
+  }
+
+  #medicamentosaptos{
+  font-size: 0.9rem;
+  }
+
+  #alimentosaptos{
+  font-size: 0.9rem;
+  }
+
+
+
+  .logo_top{
+  position: relative;
+  top: 20px;
+  left: 10px;
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  #alimentop{
+  background-image: url(../img/alimentos.png);
+  }
+
+  #medicamentop{
+  background-image: url(../img/medicamentos.png);
+  }
+
+  #calendariotop{
+  background-image: url(../img/diaadia.png);
+  }
+
+  #semanatop{
+  background-image: url(../img/bebe.png);
+  }
+
+  #imagenestop{
+  background-image: url(../img/fotos.png);
+  }
+
+  #forotop{
+  background-image: url(../img/foro.png);
+  }
+
+  #blogtop{
+  background-image: url(../img/blog.png);
+  }
+
+  #hospitop{
+  background-image: url(../img/hospital.png);
+  }
+
+  .infoalimentos{
+  background-color: ;
+  position: relative;
+  top: 120px;
+  height: 3800px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 0;
+  }
+
+  .info{
+  background-color: ;
+  position: relative;
+  top: 120px;
+  height: 4600px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 0;
+  }
+
+
+  h3{
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 80px;
+  }
+
+  a{
+  text-decoration: none;
+  }
+
+  li{
+  width: 220px;
+  height: 50px;
+  margin: 0 auto;
+  position: relative;
+  display: block;
+  list-style: none;
+  margin-top: 30px;
+  top: 150px;
+  background-color: #b0d1cc;
+  border-radius: 20px;
+  line-height: 50px;
+  color: white;
+  padding-left: 20px;
+  font-family: 'Montserrat', sans-serif;
+  }
+
+  .inicis{
+  position: relative;
+  top: 110px;
+  color: #cd545b;
+  background-color: inherit;
+  font-size: 1.2rem;
+  padding: 0;
+  text-align: center;
+  width: 250px;
+  }
+
+  .textorecu{
+  position: relative;
+  color: #b0d1cc;
+  background-color: inherit;
+  font-size: 0.7rem;
+  padding: 0;
+  line-height: 0.9rem;
+  top: 0;
+  width: 230px;
+  }
+
+  .guardarcontra{
+  position: relative;
+  background-color: #cd545b;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  }
+
+  .guardarcontra:active{
+  transform: scale(1.1);
+  }
+
+  .registre{
+  position: relative;
+  top: 100px;
+  color: #cd545b;
+  background-color: inherit;
+  font-size: 1.2rem;
+  width: 250px;
+  }
+
+  .crearcuenta{
+  top: 200px;
+  }
+
+  .recuperar{
+  top: 200px;
+  }
+
+  .entrar{
+  background-color: #cd545b;
+  text-align: center;
+  padding: 0;
+  top: 240px;
+  }
+
+  .creare{
+  background-color: #cd545b;
+  text-align: center;
+  padding: 0;
+
+  }
+
+  .creare:active{
+  transform: scale(1.1);
+  }
+
+  .registro{
+  position: relative;
+  top: 250px;
+  width: 250px;
+  height: 80px;
+  margin: 0 auto;
+  background-color: #b0d1cc;
+  border-radius: 15px;
+  }
+
+  .inicio{
+  position: relative;
+  top: 300px;
+  width: 250px;
+  height: 80px;
+  margin: 0 auto;
+  background-color: #b0d1cc;
+  border-radius: 15px;
+  }
+
+
+  .botonesprincipal{
+  position: relative;
+  top: 180px;
+  background-color: ;
+  margin: 0 auto;
+  width: 60%;
+  height: 750px;
+  }
+
+  .botonesprincipal li{
+  position: relative;
+  display: inline-block;
+  top: 0;
+  margin-bottom: 15px;
+  margin-left: 25px;
+  width: 250px;
+  height: 250px;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  .letras_logo_bot{
+  position: fixed;
+  bottom: 30px;
+  margin-left: 44%;
+  height: 30px;
+  width: 136px;
+  background-image: url(../img/logo_letra_blanco.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  .alimentos{
+  background-image: url(../img/alimentos.png);
+  }
+
+  .medicamentos{
+  background-image: url(../img/medicamentos.png);
+  }
+
+  .calendario{
+  background-image: url(../img/diaadia.png);
+  }
+
+  .bebe{
+  background-image: url(../img/bebe.png);
+  }
+
+  .imagenes{
+  background-image: url(../img/fotos.png);
+  }
+
+  .foro{
+  background-image: url(../img/foro.png);
+  }
+
+  .blog{
+  background-image: url(../img/blog.png);
+  }
+
+  .hospital{
+  background-image: url(../img/hospital.png);
+  }
+
+
+  #azultop{
+  background-color: #b0d1cc;
+  }
+
+  #azulbot{
+  background-color: #b0d1cc;
+  }
+
+  #rojo{
+  color: #cd545b;
+  }
+
+
+  #verde{
+  color: #b0d1cc;
+  }
+
+  p{
+  font-family: 'Montserrat';
+  font-size: 1.2rem;
+  text-align: center;
+  }
+
+  h1{
+  font-family: 'Montserrat';
+  font-size: 1.4rem;
+  text-align: center;
+  }
+
+  #noaptos{
+  color: #cd545b;
+  }
+
+  #aptos{
+  color: #b0d1cc;
+  }
+
+
+  .mesescentrar{
+  position: relative;
+  margin: 0 auto;
+  height: 800px;
+  width: 60%;
+  background-color: ;
+  top: 140px;
+  }
+
+  .imagenesmes{
+  position: relative;
+  display: inline-block;
+  top: 50px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  margin-left: 25px;
+  width: 240px;
+  height: 240px;
+  padding: 0;
+  border-radius: 20px;
+  background-color: #b0d1cc;
+  }
+
+  .imagenesmes p{
+  position: relative;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 5px;
+  }
+
+  input{
+  position: relative;
+  top: 0;
+  width: 150px;
+  height: 30px;
+  padding: 5px;
+  margin: 20px;
+  border-radius: 30px;
+  text-align: center;
+  background-color: #b0d1cc;
+  color: white;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  }
+
+
+  .registrobotones input{
+  width: 210px;
+  margin: 0 auto;
+  margin: 25px 0 25px 0;
+  padding: 0;
+  }
+
+  .registrobotonesinicio input{
+  width: 210px;
+  margin: 0 auto;
+  margin: 25px 0 25px 0;
+  padding: 0;
+  }
+
+  .registrobotonesrecu input{
+  width: 210px;
+  margin: 0 auto;
+  margin: 25px 0 25px 0;
+  padding: 0;
+  }
+
+
+
+  img{
+  position: relative;
+  margin: 1px;
+  width: 238px;
+  height: 218px;
+  background-color: ;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  #muno:active{
+  transform: scale(1.1);}
+
+  #mdos:active{
+  transform: scale(1.1);}
+
+  #mtres:active{
+  transform: scale(1.1);}
+
+  #mcuatro:active{
+  transform: scale(1.1);}
+
+  #mcinco:active{
+  transform: scale(1.1);}
+
+  #mseis:active{
+  transform: scale(1.1);}
+
+  #msiete:active{
+  transform: scale(1.1);}
+
+  #mocho:active{
+  transform: scale(1.1);
+  }
+
+  #mnueve:active{
+  transform: scale(1.1);
+  }
+
+  #mbienvenida:active{
+  transform: scale(1.1);
+  }
+
+  #download img{
+  position: relative;
+  top: 0px;
+  left: 50px;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  height: auto;
+  }
+
+  .registrobotones{
+  margin: 0 auto;
+  top: 100px;
+  position: relative;
+  width: 200px;
+  height: 600px;
+  background-color: ;
+  }
+
+  .registrobotonesinicio{
+  margin: 0 auto;
+  top: 160px;
+  position: relative;
+  width: 200px;
+  height: 100px;
+  background-color: ;
+  }
+
+
+  .registrobotonesrecu{
+  margin: 0 auto;
+  top: 160px;
+  position: relative;
+  width: 200px;
+  height: 100px;
+  background-color: ;
+  }
+
+  .infoalimentos input{
+    position: fixed;
+    top: 120px;
+    right: 80px;
+    width: 300px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 1.1rem;
+  }
+
+  .info input{
+    position: fixed;
+    top: 120px;
+    right: 80px;
+    width: 300px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 1.1rem;
+  }
+
+  .hospicubos{
+    position: relative;
+    margin: 0 auto;
+    top: 120px;
+    background-color: ;
+    height: 2000px;
+    width: 31%;
+  }
+
+  .hospili{
+    position: relative;
+    margin: 10px;
+    top: ;
+    background-color: cyan;
+    height: 180px;
+    width: 600px;
+    border-radius: 30px;
+    background-color: #b0d1cc;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .hospili h3{
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 20px;
+    background-color: ;
+    font-size: 1.4rem;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.8rem;
+  }
+
+    .hospili p{
+      position: relative;
+      text-align: center;
+      margin: 0 auto;
+      width: 96%;
+      height: 134px;
+      background-color: ;
+      font-size: 1.2rem;
+      line-height: 1.4rem;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+  #joandeu h3{
+      padding-top: 15px;
+    }
+
+  #joandeu p{
+        padding-top: 15px;
+      }
+
+  #sanitas:active{
+    transform: scale(1.1);
+  }
+
+  #teknon:active{
+    transform: scale(1.1);
+  }
+
+  #quiron:active{
+    transform: scale(1.1);
+  }
+
+  #joandeu:active{
+    transform: scale(1.1);
+  }
+
+  #delmar:active{
+    transform: scale(1.1);
+  }
+
+  #esperit:active{
+    transform: scale(1.1);
+  }
+
+  #hebron:active{
+    transform: scale(1.1);
+  }
+
+  #clinic:active{
+    transform: scale(1.1);
+  }
+
+  #santramon:active{
+    transform: scale(1.1);
+  }
+
+  #safa:active{
+    transform: scale(1.1);
+  }
+
+  .searchforo{
+    position: relative;
+    top: 140px;
+    width: 14%;
+    height: 3200px;
+    margin: 0 auto;
+    background-color: ;
+  }
+
+  .searchforo input{
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  .foropub{
+    position: relative;
+    margin: 0 auto;
+    top: 20px;
+    width: 400px;
+    height: 180px;
+    background-color: ;
+    margin-bottom: 50px;
+  }
+
+  #actividad{
+    position: relative;
+    margin: 0 auto;
+    width: 370px;
+    height: 120px;
+    margin-bottom: 5px;
+    background-color: #b0d1cc;
+    padding: 15px;
+    color: white;
+    font-size: 0.9rem;
+    line-height: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    border-radius: 10px 10px 0 0;
+  }
+
+  #perfil{
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+    width: 97px;
+    height: 30px;
+    background-color: #b0d1cc;
+    color: white;
+    font-size: 0.8rem;
+    line-height: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    border-radius: 0 0 0 10px;
+  }
+
+  #contacto{
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+    width: 197px;
+    height: 30px;
+    background-color: #b0d1cc;
+    color: white;
+    font-size: 0.8rem;
+    line-height: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+  }
+
+  #fecha{
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+    width: 97px;
+    height: 30px;
+    background-color: #b0d1cc;
+    color: white;
+    font-size: 0.8rem;
+    line-height: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    border-radius: 0 0 10px 0;
+  }
+
+  .searchblog{
+    position: relative;
+    top: 140px;
+    width: 10%;
+    height: 2900px;
+    margin: 0 auto;
+    background-color: ;
+  }
+
+  .searchblog input{
+    width: 400px;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  .blogpub{
+    position: relative;
+    margin: 0 auto;
+    top: 20px;
+    width: 400px;
+    height: 180px;
+    background-color: ;
+    margin-bottom: 500px;
+  }
+
+  #seccionblog{
+    position: relative;
+    margin: 0 auto;
+    width: 370px;
+    height: 5px;
+    margin-bottom: 5px;
+    background-color: #b0d1cc;
+    padding: 15px;
+    color: white;
+    font-size: 0.9rem;
+    line-height: 0.7rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+  }
+
+  #bloged{
+    position: relative;
+    margin: 0 auto;
+    width: 370px;
+    height: 500px;
+    margin-bottom: 5px;
+    background-color: #b0d1cc;
+    padding: 15px;
+    color: white;
+    font-size: 0.9rem;
+    line-height: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    border-radius: 0;
+  }
+
+  #nombreespe{
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+    width: 198px;
+    height: 30px;
+    background-color: #b0d1cc;
+    color: white;
+    font-size: 0.8rem;
+    line-height: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    border-radius: 0 0 0 10px;
+  }
+
+  #especialidad{
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+    width: 198px;
+    height: 30px;
+    background-color: #b0d1cc;
+    color: white;
+    font-size: 0.8rem;
+    line-height: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    border-radius: 0 0 10px 0;
+  }
+
+  .datoscambio{
+    position: relative;
+    top: 120px;
+    margin: 0 auto;
+    width: 300px;
+    height: 900px;
+    background-color: ;
+  }
+
+  .guardatos{
+    width: 220px;
+    height: 50px;
+    position: relative;
+    list-style: none;
+    top: 50px;
+    background-color: #cd545b;
+    border-radius: 20px;
+    line-height: 50px;
+    color: white;
+    text-align: center;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .fotopers{
+    position: relative;
+    top: 10px;
+    margin: 0 auto;
+    border-radius: 100%;
+    width: 180px;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/fotos.png);
+  }
+
+  .datoscambio input{
+    position: relative;
+    top: 30px;
+    margin-top: 5px;
+    width: 250px;
+    height: 20px;
+  }
+
+  .botonesprincipal li:hover{
+    opacity: 80%;
+    transform: scale(1.05);
+  }
+
+  .descarga{
+    position: relative;
+    margin: 0 auto;
+    top: 200px;
+    padding: 0;
+    height: 30px;
+    width: 130px;
+    border-radius: 30px;
+    background-color: #b0d1cc;
+    text-align: center;
+    color: white;
+    line-height: 2rem;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .descarga:hover{
+    opacity: 70%;
+  }
+
+  .descarga:active{
+    transform: scale(1.05);
+  }
+
+
+}
